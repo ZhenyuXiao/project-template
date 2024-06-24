@@ -1,14 +1,26 @@
-# Ignore all
+# All files without extension
 *
-
-# Unignore all with extensions
 !*.*
-
-# Unignore all dirs
 !*/
 
-### Above combination will ignore all files without extension ###
-
-# vscode
+# VS Code
 *.code-workspace
 .vscode
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Test
